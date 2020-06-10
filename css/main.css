@@ -1,0 +1,281 @@
+body{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+header{
+    background: #000 url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    max-height: 1000px;
+    height:500px;
+    margin-bottom: 50px;
+}
+header .contenedor-logom{
+    width: 100%;
+    padding: 15px;
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header .contenedor-logom .menu{
+    text-align: right;
+}
+header .contenedor-logom .menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+    transition: all ease-in-out .3s;
+}
+header .contenedor-logom .menu a:hover{
+    border-bottom: 2px solid white;
+}
+header .textos{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 100px;
+
+}
+header .contenedor-btn{
+    margin-top: 50px;
+}
+header .contenedor-btn a{
+    color: white;
+    text-decoration: none;
+    margin:5px ; 
+    padding: 10px 50px;
+    border: 2px solid white;
+    border-radius: 2px solid white;
+    transition: ease all .3s;
+}
+header .contenedor-btn a:hover{
+    background: white;
+    color: black;
+}
+.main .cat .titulo{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.main .cat div {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.main .cat .primera-linea,.p{
+    width: 100%;
+}
+.main .cat .icono{
+    margin-bottom: 25px;
+}
+.main .fotos{
+    margin-bottom: 70px;
+}
+.main .foto{
+    margin-bottom: 20px;
+}
+.main .foto .thumb img{
+    border-radius: 3px;
+    width: 100%;
+    vertical-align: top;
+}
+.main .fotos .foto .titulo{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 300;
+}
+.main .fotos .texto .azul{
+    color: rgb(74, 74, 248);
+}
+.main .fotos .texto .naranja{
+    color: rgb(255, 116, 36);
+}
+.main .fotos .texto .derecha{
+    text-align: right;
+}
+.main .clientes{
+    text-align: center;
+    margin-top: 80px;
+    background: #2d363f;
+    width: 100%;
+    padding: 25px;
+}
+.main .clientes .titulo{
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin: 10px;
+    padding: 25px;
+}
+.main .clientes div{
+    padding: 10px;
+}
+.main .precios{
+    background: url(../img/precios-bg.jpg);
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    padding: 78px 0;
+
+}
+.main .precios .titulo{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+}
+.main .precios .plan{
+    padding: 50px 0;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: -1px 3px 68px -3px rgba(0,0,0,0.68);
+}
+.main .verde .name{
+    margin: 10px;
+    font-size: 24px;
+    color: #86b873;
+    font-weight: 400;
+}
+.main .verde .precio{
+    font-size: 34px;
+    color: #86b873;
+    font-weight: 700;
+}
+.main .verde .btn{
+    margin: 20px;
+    padding: 10px 20px;
+    font-weight: 700;
+    color: #86b873;
+    border: 2px solid #86b873;
+    border-radius: 20px;
+}
+.main .verde .btn:hover{
+    background: #86b873;
+    color: white;
+}
+
+
+.main .plan .cat{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+.main .precios .plan .cat li{
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.main .precios .active{
+    background: #4c8dcf;
+    color: white;
+}
+.main .active .name{
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.main .active .precio{
+    font-size: 34px;
+    font-weight: 700;
+}
+.main .active .btn{
+    margin: 20px;
+    padding: 10px 20px;
+    font-weight: 700;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.main .active .btn:hover{
+    background: white;
+    color: black;
+}
+.main .naranja .name{
+    margin: 10px;
+    color: #ddb146;
+    font-size: 24px;
+    font-weight: 400;
+}
+.main .naranja .precio{
+    font-size: 34px;
+    color: #ddb146;
+    font-weight: 700;
+}
+.main .naranja .btn{
+    margin: 20px;
+    padding: 10px 20px;
+    font-weight: 700;
+    color: #ddb146;
+    border: 2px solid #ddb146;
+    border-radius: 20px;
+}
+.main .naranja .btn:hover{
+    background: #ddb146;
+    color: white;
+}
+.main .reviews{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main .reviews .titulo{
+    text-align: center;
+    margin-bottom: 35px;
+    color: #50acd5;
+}
+.main .reviews .cliente{
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.main .reviews .cliente .foto{
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+.main .reviews .cliente .foto img{
+    max-width: 100px;
+    width: 100%;
+    vertical-align: top;
+    border-radius: 100%;
+}
+.main .reviews .cliente .review{
+    float: left;
+    width: 80%;
+    padding: 0 30px;
+    margin-top: 20px;
+}
+.main .reviews .cliente .derecha{
+    float: right;
+    text-align: left;
+}
+.main .reviews {
+    margin-bottom: 60px;
+}
+footer .dir{
+    background: #3c3f44;
+    padding: 25px;
+    color: white;
+}
+footer .dir .logo{
+    margin-top: 45px;
+}
